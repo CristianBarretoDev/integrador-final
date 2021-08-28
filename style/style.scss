@@ -6,6 +6,7 @@ $mainColor2: rgb(244, 249, 233);
 $mainColor3: rgb(15, 15, 15);
 $mainColor4: rgb(42, 43, 41);
 $mainColor5: rgb(77, 8, 5);
+$mainColorNav: #171717;
 
 * {
     margin: 0 auto;
@@ -16,7 +17,7 @@ $mainColor5: rgb(77, 8, 5);
 .main-nav {
     height: 10%;
     width: 100vw;
-    background-color: $mainColor2;
+    background-color: $mainColorNav;
     position: absolute;
 }
 
@@ -57,6 +58,22 @@ $mainColor5: rgb(77, 8, 5);
             padding-bottom: 20px;
         }
 }
+
+.main-container-btn {
+    width: 70%;
+    height: 70px;
+    position: relative;
+    top: 45px;
+    background-color: rgb(253, 173, 13);
+    border-style: none;
+    border-radius: 2px;
+    font-family: $fontTitle;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
 
 
 

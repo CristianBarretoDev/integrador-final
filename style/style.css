@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-nav {
+  height: 10%;
+  width: 100vw;
+  background-color: #f4f9e9;
+  position: absolute;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.main-container .img-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.main-container .img-container .main-img {
+  width: 100%;
+  height: 50%;
+}
+
+.titles-container {
+  max-width: 80%;
+}
+
+.titles-container .main-container-title2 {
+  font-family: Chivo;
+  color: #2a2b29;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  padding: 10px 0px 10px 0px;
+}
+
+.titles-container .main-container-title {
+  font-family: Roboto Slab;
+  letter-spacing: 2px;
+  color: #f4f9e9;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

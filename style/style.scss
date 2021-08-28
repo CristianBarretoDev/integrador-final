@@ -3,8 +3,8 @@ $fontSubTitle: Chivo;
 $fontMainText: Roboto Slab;
 $mainColor: rgb(10, 11, 10);
 $mainColor2: rgb(244, 249, 233);
-$mainColor3: rgb(18, 22, 20);
-$mainColor4: rgb(37, 41, 28);
+$mainColor3: rgb(15, 15, 15);
+$mainColor4: rgb(42, 43, 41);
 $mainColor5: rgb(77, 8, 5);
 
 * {
@@ -12,3 +12,51 @@ $mainColor5: rgb(77, 8, 5);
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-nav {
+    height: 10%;
+    width: 100vw;
+    background-color: $mainColor2;
+    position: absolute;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    background-color: $mainColor3;
+        .img-container {
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: column wrap;
+                .main-img {
+                    width: 100%;
+                    height: 50%;
+                }
+        }
+}
+
+.titles-container {
+    max-width: 80%;
+        .main-container-title2 {
+            font-family: $fontSubTitle;
+            color: $mainColor4;
+            font-size: 1.8em;
+            letter-spacing: 2px;
+            padding: 10px 0px 10px 0px;
+        }
+        
+        .main-container-title {
+            font-family: $fontMainText;
+            letter-spacing: 2px;
+            color: $mainColor2;
+            font-size: 2em;
+            padding-bottom: 20px;
+        }
+}
+
+
+

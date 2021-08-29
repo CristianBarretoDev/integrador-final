@@ -73,10 +73,34 @@ $mainColorNav: #171717;
     font-weight: bold;
 }
 
-.main-bandas {
-    height: 100vh;
+/* .main-bandas {
     background-color: rgb(243, 193, 128);
+} */
+
+.main-bandas-container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
+
+        .contianer-banda {
+            width: 90%;
+        }
+
+        .img-banda {
+            width: 100%;
+        }
+
+        .main-banda-titulo {
+            font-family: $fontSubTitle;
+        }
+
+        .main-banda-texto {
+            font-family: $fontMainText;
+        }
 }
+
+
 
 
 

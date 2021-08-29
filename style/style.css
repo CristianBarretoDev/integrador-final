@@ -56,7 +56,7 @@
 .titles-container .main-container-title2 {
   font-family: Chivo;
   color: #2a2b29;
-  font-size: 1.8em;
+  font-size: 2rem;
   letter-spacing: 2px;
   padding: 10px 0px 10px 0px;
 }
@@ -65,38 +65,47 @@
   font-family: Roboto Slab;
   letter-spacing: 2px;
   color: #f4f9e9;
-  font-size: 2em;
+  font-size: 2.3rem;
   padding-bottom: 20px;
 }
 
 .main-container-btn {
-  width: 70%;
+  width: 80%;
   height: 70px;
   position: relative;
   top: 45px;
-  background-color: #fdad0d;
+  background-color: #fffffe;
   border-style: none;
   border-radius: 2px;
   font-family: Nunito Sans;
-  font-size: 1.5em;
+  font-size: 2rem;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-/* .main-bandas {
-    background-color: rgb(243, 193, 128);
-} */
+.main-bandas {
+  background-color: white;
+}
+
+.main-bandas-hijo-container {
+  width: 90%;
+  background-color: white;
+}
+
+.title-lineup {
+  font-family: Chivo;
+  padding: 20px 0px 50px 0px;
+  font-size: 3.5rem;
+}
+
 .main-bandas-container {
   display: -ms-grid;
   display: grid;
-  gap: 1rem;
-  grid-auto-rows: 22rem;
+  gap: 3rem;
+  grid-auto-rows: auto;
   -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-}
-
-.main-bandas-container .contianer-banda {
-  width: 90%;
+  padding-bottom: 5rem;
 }
 
 .main-bandas-container .img-banda {
@@ -105,9 +114,15 @@
 
 .main-bandas-container .main-banda-titulo {
   font-family: Chivo;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .main-bandas-container .main-banda-texto {
   font-family: Roboto Slab;
+}
+
+.main-bandas-container .contianer-banda {
+  min-height: 100%;
 }
 /*# sourceMappingURL=style.css.map */

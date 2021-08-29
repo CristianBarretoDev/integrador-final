@@ -127,12 +127,25 @@ $mainColorNav: #171717;
 
 
     .songs-festival-container-hijo {
-        width: 90%;
+        width: 70%;
 
         .songs-title {
             font-family: $fontSubTitle;
             font-size: 2.5rem;
             color: $mainColor2;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .song-preview-container {
+        .song-preview-container-hijo {
+            padding-bottom: 2rem;
         }
     }
 }
+
+.svg-2 {
+    position: relative;
+    top: -5px;
+}
+

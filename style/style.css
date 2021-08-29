@@ -123,10 +123,16 @@
 }
 
 .songs-fastival-container-padre {
-  width: 100%;
   background-color: #141313;
   position: relative;
   top: -5px;
+  display: -ms-grid;
+  display: grid;
+  gap: 4rem;
+  grid-auto-rows: auto;
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  padding-bottom: 1rem;
 }
 
 .songs-fastival-container-padre .songs-festival-container-hijo {

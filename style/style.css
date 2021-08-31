@@ -74,7 +74,7 @@
   height: 70px;
   position: relative;
   top: 45px;
-  background-color: #fffffe;
+  background-color: #fac418;
   border-style: none;
   border-radius: 2px;
   font-family: Nunito Sans;
@@ -153,5 +153,72 @@
 .svg-2 {
   position: relative;
   top: -5px;
+}
+
+.newsletter-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  padding-bottom: 3rem;
+}
+
+.newsletter-main .newsletter-main-title {
+  font-family: Chivo;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.newsletter-main .newsletter-subtitle {
+  font-family: Roboto Slab;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.newsletter-main .newsletter-subtitle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl {
+  width: 80%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  border-style: none;
+  background-color: #2a2b29;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-btn-nl {
+  width: 50%;
+  height: 3rem;
+  border-style: none;
+  background-color: #fac418;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

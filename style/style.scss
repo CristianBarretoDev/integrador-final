@@ -6,6 +6,7 @@ $mainColor2: rgb(244, 249, 233);
 $mainColor3: rgb(15, 15, 15);
 $mainColor4: rgb(42, 43, 41);
 $mainColor5: rgb(77, 8, 5);
+$mainColor6: rgb(250, 196, 24);
 $mainColorNav: #171717;
 
 * {
@@ -67,7 +68,7 @@ $mainColorNav: #171717;
     height: 70px;
     position: relative;
     top: 45px;
-    background-color: rgb(255, 255, 254);
+    background-color: $mainColor6;
     border-style: none;
     border-radius: 2px;
     font-family: $fontTitle;
@@ -147,5 +148,55 @@ $mainColorNav: #171717;
 .svg-2 {
     position: relative;
     top: -5px;
+}
+
+.newsletter-main {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 3rem;
+
+        .newsletter-main-title {
+            font-family: $fontSubTitle;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            padding-top: 2rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .newsletter-subtitle {
+            font-family: $fontMainText;
+            font-size: 1.7rem;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        .newsletter-subtitle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+
+                .input-text-nl {
+                    width: 80%;
+                    height: 3rem;
+                    margin-bottom: 2rem;
+                    border-style: none;
+                    background-color: $mainColor4;
+                    border-radius: 5px;
+                    text-align: center;
+                }
+
+                .input-btn-nl {
+                    width: 50%;
+                    height: 3rem;
+                    border-style: none;
+                    background-color: $mainColor6;
+                    border-radius: 5px;
+                }
+        }
+
 }
 

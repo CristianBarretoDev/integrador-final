@@ -242,7 +242,26 @@ $mainColorNav: #171717;
 
             .social-logo {
                 width: 3rem;
+                color: white;
             }            
+        }
+}
+
+.main-footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+        .main-footer-container {
+            height: 5%;
+
+                .main-footer-txt {
+                    font-family: $fontMainText;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    padding: .5rem;
+                }
         }
 }
 

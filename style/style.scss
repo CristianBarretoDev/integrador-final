@@ -188,9 +188,15 @@ $mainColorNav: #171717;
                     border-radius: 5px;
                     text-align: center;
                     font-family: $fontMainText;
+                    font-weight: bold;
+                    font-size: 1rem;
 
-                    /* .input-text-nl::placeholder {
-                        color: $mainColor2;
+                    input::placeholder {
+                        color: rgb(255, 255, 255);
+                    }
+
+                   /*  .input-text-nl::placeholder {
+                        color: white;
                         font-size: 2rem;
                     }  */
                 }

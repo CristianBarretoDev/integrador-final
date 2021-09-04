@@ -213,10 +213,28 @@
   border-radius: 5px;
   text-align: center;
   font-family: Roboto Slab;
-  /* .input-text-nl::placeholder {
-                        color: $mainColor2;
+  font-weight: bold;
+  font-size: 1rem;
+  /*  .input-text-nl::placeholder {
+                        color: white;
                         font-size: 2rem;
                     }  */
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl input::-webkit-input-placeholder {
+  color: white;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl input:-ms-input-placeholder {
+  color: white;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl input::-ms-input-placeholder {
+  color: white;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl input::placeholder {
+  color: white;
 }
 
 .newsletter-main .newsletter-subtitle-container .input-btn-nl {

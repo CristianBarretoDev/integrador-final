@@ -13,6 +13,7 @@ $mainColorNav: #171717;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .main-nav {
@@ -208,6 +209,11 @@ $mainColorNav: #171717;
 
                 .input-text-nl:focus {
                     color: rgb(250, 196, 24);
+                }
+
+                a{
+                    width: 100%;
+                    text-align: center;
                 }
 
                 .input-btn-nl {

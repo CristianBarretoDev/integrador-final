@@ -64,7 +64,7 @@ $mainColorNav: #171717;
 }
 
 .main-container-btn {
-    width: 80%;
+    width: 95%;
     height: 70px;
     position: relative;
     top: 45px;
@@ -72,9 +72,9 @@ $mainColorNav: #171717;
     border-style: none;
     border-radius: 2px;
     font-family: $fontTitle;
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .main-bandas {
@@ -103,6 +103,11 @@ $mainColorNav: #171717;
 
     .img-banda {
         width: 100%;
+    }
+    
+    a {
+        color: $mainColor3;
+        text-decoration: none;
     }
 
     .main-banda-titulo {
@@ -189,16 +194,20 @@ $mainColorNav: #171717;
                     text-align: center;
                     font-family: $fontMainText;
                     font-weight: bold;
-                    font-size: 1rem;
-
-                    input::placeholder {
-                        color: rgb(255, 255, 255);
-                    }
+                    font-size: 1rem;                    
 
                    /*  .input-text-nl::placeholder {
                         color: white;
                         font-size: 2rem;
                     }  */
+                }
+
+                .input-text-nl::placeholder{
+                    color: rgb(250, 196, 24);
+                }
+
+                .input-text-nl:focus {
+                    color: rgb(250, 196, 24);
                 }
 
                 .input-btn-nl {
@@ -261,6 +270,11 @@ $mainColorNav: #171717;
 
         .main-footer-container {
             height: 5%;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(42, 43, 41);
+                }
 
                 .main-footer-txt {
                     font-family: $fontMainText;

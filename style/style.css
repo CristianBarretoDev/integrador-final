@@ -70,7 +70,7 @@
 }
 
 .main-container-btn {
-  width: 80%;
+  width: 95%;
   height: 70px;
   position: relative;
   top: 45px;
@@ -78,9 +78,9 @@
   border-style: none;
   border-radius: 2px;
   font-family: Nunito Sans;
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main-bandas {
@@ -110,6 +110,11 @@
 
 .main-bandas-container .img-banda {
   width: 100%;
+}
+
+.main-bandas-container a {
+  color: #0f0f0f;
+  text-decoration: none;
 }
 
 .main-bandas-container .main-banda-titulo {
@@ -221,20 +226,24 @@
                     }  */
 }
 
-.newsletter-main .newsletter-subtitle-container .input-text-nl input::-webkit-input-placeholder {
-  color: white;
+.newsletter-main .newsletter-subtitle-container .input-text-nl::-webkit-input-placeholder {
+  color: #fac418;
 }
 
-.newsletter-main .newsletter-subtitle-container .input-text-nl input:-ms-input-placeholder {
-  color: white;
+.newsletter-main .newsletter-subtitle-container .input-text-nl:-ms-input-placeholder {
+  color: #fac418;
 }
 
-.newsletter-main .newsletter-subtitle-container .input-text-nl input::-ms-input-placeholder {
-  color: white;
+.newsletter-main .newsletter-subtitle-container .input-text-nl::-ms-input-placeholder {
+  color: #fac418;
 }
 
-.newsletter-main .newsletter-subtitle-container .input-text-nl input::placeholder {
-  color: white;
+.newsletter-main .newsletter-subtitle-container .input-text-nl::placeholder {
+  color: #fac418;
+}
+
+.newsletter-main .newsletter-subtitle-container .input-text-nl:focus {
+  color: #fac418;
 }
 
 .newsletter-main .newsletter-subtitle-container .input-btn-nl {
@@ -320,6 +329,11 @@
 
 .main-footer2 .main-footer-container {
   height: 5%;
+}
+
+.main-footer2 .main-footer-container a {
+  text-decoration: none;
+  color: #2a2b29;
 }
 
 .main-footer2 .main-footer-container .main-footer-txt {
